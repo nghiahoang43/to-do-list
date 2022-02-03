@@ -1,0 +1,25 @@
+body {
+  /* background-color: bisque; */
+  background: linear-gradient(45deg, #43c6ac, #191654);
+  min-height: 88vh;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.todo-list {
+  margin: auto;
+  width: 70%;
+  display: flex;
+  margin-top: 70px;
+}
+
+@media (max-width: 1050px) {
+  .todo-list {
+    width: 100%;
+    display: block;
+  }
+}

@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.tick-btn {
+  background-color: white;
+  border-radius: 50%;
+  border: thin solid gray;
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  margin-right: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.tick-btn:hover {
+  background-color: #bcf7eb;
+}
+

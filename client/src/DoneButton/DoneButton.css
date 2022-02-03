@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.done-btn {
+  background-color: #5f867e;
+  border-radius: 50%;
+  border: none;
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.done-btn:hover {
+  background-color: #43c6ac;
+}
